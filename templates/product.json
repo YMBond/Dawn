@@ -33,6 +33,12 @@
             "picker_type": "button"
           }
         },
+        "f1b9bd2f-a459-40cc-a4a3-69d923682c20": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "SKU: {% assign current_variant = product.selected_or_first_available_variant %}{{ current_variant.sku }}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -102,6 +108,7 @@
         "caption",
         "price",
         "variant_picker",
+        "f1b9bd2f-a459-40cc-a4a3-69d923682c20",
         "quantity_selector",
         "buy_buttons",
         "description",
