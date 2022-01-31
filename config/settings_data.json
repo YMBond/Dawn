@@ -7,6 +7,8 @@
     "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_blur": 0,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 40,
     "card_color_scheme": "background-2",
     "accent_icons": "accent-1",
     "social_twitter_link": "https:\/\/twitter.com\/Actin_ca",
