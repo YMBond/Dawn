@@ -35,9 +35,11 @@
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": true,
     "favicon": "shopify:\/\/shop_images\/Soeks.Store-Logo.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/Our_Story-Soeks_Store.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/Soeks.Store-Logo.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
+    "checkout_input_background_color_mode": "white",
     "checkout_accent_color": "#121212",
     "checkout_button_color": "#53a5ff",
     "sections": {
