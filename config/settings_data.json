@@ -13,6 +13,9 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/Actin.ca",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCirWBSKOjkoGSZYA5nmKy0A",
     "favicon": "shopify:\/\/shop_images\/Soeks.Store-Logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Soeks.Store-Logo.png",
+    "checkout_accent_color": "#53a5ff",
+    "checkout_button_color": "#53a5ff",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
