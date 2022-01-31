@@ -75,7 +75,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Our website offers products and services that have been researched extensively and will provide these alternative solutions. We hope this information will help improve your quality of life.<\/p>"
+              "subtext": "<p>Our website offers products and services that have been researched extensively and will provide these alternative solutions.<\/p><p><strong>We hope this information will help improve your quality of life.<\/strong><\/p>"
             }
           }
         },
