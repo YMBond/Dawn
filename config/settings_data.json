@@ -76,12 +76,21 @@
               "heading": "Our mission",
               "subtext": "<p>Our website offers products and services that have been researched extensively and will provide these alternative solutions.<\/p><p><strong>We hope this information will help improve your quality of life.<\/strong><\/p>"
             }
+          },
+          "3c10bdb5-2cd6-4cdc-927f-462a7cdd00ce": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Soeks.Store-Logo.png",
+              "image_width": 200,
+              "alignment": "right"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "3c10bdb5-2cd6-4cdc-927f-462a7cdd00ce"
         ],
         "settings": {
           "color_scheme": "accent-1",
