@@ -3,6 +3,8 @@
     "colors_accent_1": "#53a5ff",
     "colors_accent_2": "#e22120",
     "page_width": 1600,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_blur": 0,
     "card_color_scheme": "background-2",
