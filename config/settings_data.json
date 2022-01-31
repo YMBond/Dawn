@@ -36,7 +36,7 @@
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": true,
     "favicon": "shopify:\/\/shop_images\/Soeks.Store-Logo.png",
-    "checkout_header_image": "shopify:\/\/shop_images\/Our_Story-Soeks_Store.jpg",
+    "checkout_header_image": "shopify:\/\/shop_images\/Soeks.Store-CheckOut.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/Soeks.Store-Logo.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
@@ -140,11 +140,14 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
         }
       },
       "main-password-footer": {
         "type": "main-password-footer",
         "settings": {
+          "color_scheme": "background-1"
         }
       }
     },
