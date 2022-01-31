@@ -60,12 +60,11 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": "main-menu"
             }
           },
           "footer-1": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
               "heading": "Info",
               "menu": "footer"
