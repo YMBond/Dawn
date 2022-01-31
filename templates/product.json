@@ -39,6 +39,16 @@
             "custom_liquid": "SKU: {% assign current_variant = product.selected_or_first_available_variant %}{{ current_variant.sku }}"
           }
         },
+        "25802ce9-4273-46aa-b53e-cc97a92dd77b": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#53a5ff",
+            "star_size": 10,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -109,6 +119,7 @@
         "price",
         "variant_picker",
         "f1b9bd2f-a459-40cc-a4a3-69d923682c20",
+        "25802ce9-4273-46aa-b53e-cc97a92dd77b",
         "quantity_selector",
         "buy_buttons",
         "description",
