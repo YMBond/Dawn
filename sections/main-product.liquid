@@ -652,8 +652,8 @@
     ],
     "aggregateRating": {
       "@type": "AggregateRating", 
-      {%- if product.metafields.reviews.rating != blank -%}
-        "ratingValue": {{ product.metafields.reviews.rating }},
+      {%- if product.metafields.reviews.rating.value != blank -%}
+        "ratingValue": {{ product.metafields.reviews.rating.value }},
       {%- endif -%}
       {%- if product.metafields.reviews.rating_count != blank -%}
         "reviewCount": {{ product.metafields.reviews.rating_count }},
