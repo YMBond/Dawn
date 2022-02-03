@@ -33,6 +33,12 @@
             "picker_type": "button"
           }
         },
+        "41ac027c-4024-4760-925f-46bf04b04e8e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"hideAll\">\n    <p><span>SKU: <\/span><span class=\"sku\"><\/span><\/p>       \n<\/div>\n\n{% capture 'variant_sku' %}       \n    {% for variant in product.variants %}\n        {{variant.id}}:{{ variant.sku| json }}\n        {% unless forloop.last %},{% endunless %}           \n   {% endfor %}\n{% endcapture %}  \n        \n<script>\n  const currentVariantSku = {{ product.selected_or_first_available_variant.id }};\n  const variantSku = { {{ variant_sku }} };        \n  const getSku = (id) => {\n  let selector = document.querySelector('.sku');\n  let hide = document.querySelector('.hideAll')\n    if (variantSku[id]) {\n     hide.style.display = 'block'\n     selector.innerHTML = variantSku[id];\n    }\n    else \n     hide.style.display = 'none'\n  }\n  getSku(currentVariantSku);\n\n<\/script>"
+          }
+        },
         "f1b9bd2f-a459-40cc-a4a3-69d923682c20": {
           "type": "custom_liquid",
           "settings": {
@@ -118,6 +124,7 @@
         "caption",
         "price",
         "variant_picker",
+        "41ac027c-4024-4760-925f-46bf04b04e8e",
         "f1b9bd2f-a459-40cc-a4a3-69d923682c20",
         "25802ce9-4273-46aa-b53e-cc97a92dd77b",
         "quantity_selector",
