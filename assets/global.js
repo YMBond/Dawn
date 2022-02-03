@@ -755,7 +755,12 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      this.updateSku();
     }
+  }
+
+  updateSku() {
+	  getSku(this.currentVariant.id);
   }
 
   updateOptions() {
