@@ -153,7 +153,7 @@
         "17af5160-952c-4891-a4d7-ab593e9391dc"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "image-with-text": {
