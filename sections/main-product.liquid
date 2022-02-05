@@ -652,9 +652,9 @@
     ],
     "offers": {
       "@type": "AggregateOffer",
-       "offerCount": {{ product.variants.variant_count | json }},
-       "lowPrice" : {{ product.variants.variant.price | divided_by: 100.00 | json }},
-       "highPrice" : {{ product.variants.variant.compare_at_price | divided_by: 100.00 | json }},
+       "offerCount": {{ product.metafields.variant_count | json }},
+       "lowPrice" : {{ product.price_min | divided_by: 100.00 | json }},
+       "highPrice" : {{ product.price_max | divided_by: 100.00 | json }},
        "priceCurrency" : {{ cart.currency.iso_code | json }}
     },
     "aggregateRating": {
@@ -665,7 +665,7 @@
       {%- if product.metafields.reviews.rating_count != blank -%}
         "reviewCount": {{ product.metafields.reviews.rating_count }},
       {%- endif -%}
-        "bestRating": "5"
+        "bestRating": "5.0"
     }
   }
 </script>
