@@ -611,7 +611,7 @@
     "@type": "Product",
     "name": {{ product.title | json }},
     "url": {{ shop.url | append: product.url | json }},
-    {% for image in product.images %}
+    {% for image in product.media %}
       "image": {{ image.src | img_url: | prepend: "https:" | json }},
     {% endfor %}
     "description": {{ page_description | strip_html | json }},
