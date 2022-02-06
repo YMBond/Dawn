@@ -612,7 +612,9 @@
     "name": {{ product.title | json }},
     "url": {{ shop.url | append: product.url | json }},
     "description": {{ page_description | strip_html | json }},
-    "image": {{ image.src | img_url: | prepend: "https:" | json }},
+    {% for image in product.images %}
+      "image": {{ image.src | img_url: | prepend: "https:" | json }},
+    {% endfor %}  
     {%- if product.selected_or_first_available_variant.sku != blank -%}
       "sku": {{ product.selected_or_first_available_variant.sku | json }},
     {%- endif -%}
