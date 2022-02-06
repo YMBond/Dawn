@@ -612,9 +612,12 @@
     "name": {{ product.title | json }},
     "url": {{ shop.url | append: product.url | json }},
     "description": {{ page_description | strip_html | json }},
-    {% for image in product.media %}
-      "image": {{ image.src | img_url: | prepend: "https:" | json }},
-    {% endfor %}  
+    {%- if product.featured_media -%}
+      {%- assign media_size = product.featured_media.preview_image.width | append: 'x' -%}
+      "image": [
+        {{ product.featured_media | img_url: media_size | prepend: "https:" | json }}
+      ],
+    {%- endif -%}
     {%- if product.selected_or_first_available_variant.sku != blank -%}
       "sku": {{ product.selected_or_first_available_variant.sku | json }},
     {%- endif -%}
