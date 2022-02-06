@@ -639,11 +639,6 @@
           {%- if variant.barcode != blank -%}
             "gtin": {{ variant.barcode | json }},
           {%- endif -%}
-          {% for image in product.images %}
-            {% for variant in image.variants %}
-            "image": {{ image.src | img_url: | prepend: "https:" | json }},
-            {% endfor %}
-         {% endfor %}
           "priceCurrency": {{ cart.currency.iso_code | json }},
           "price": {{ variant.price | divided_by: 100.00 | json }},
           "priceValidUntil": "{{ product.metafields.my_fields.price_valid_until }}",
