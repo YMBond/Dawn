@@ -611,7 +611,6 @@
     "@type": "Product",
     "name": {{ product.title | json }},
     "url": {{ shop.url | append: product.url | json }},
-    "image": {{ image.src | img_url: | prepend: "https:" | json }},
     "description": {{ page_description | strip_html | json }},
     {%- if product.selected_or_first_available_variant.sku != blank -%}
       "sku": {{ product.selected_or_first_available_variant.sku | json }},
