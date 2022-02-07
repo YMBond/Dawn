@@ -612,7 +612,12 @@
     "name": {{ product.title | json }},
     "url": {{ shop.url | append: product.url | json }},
     "description": {{ page_description | strip_html | json }},
-    "image": {{ product.featured_image.src | img_url: 'master' | prepend: "https:" | json }},
+    {% if seo_media -%}
+      {%- assign media_size = seo_media.preview_image.width | append: 'x' -%}
+      "image": [
+        {{ seo_media | img_url: media_size | prepend: "https:" | json }}
+      ],
+    {%- endif %}
     {%- if product.selected_or_first_available_variant.sku != blank -%}
       "sku": {{ product.selected_or_first_available_variant.sku | json }},
     {%- endif -%}
