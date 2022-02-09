@@ -1138,3 +1138,13 @@
   ]
 }
 {% endschema %}
+<script>
+	var SPRCallbacks = {
+		onProductLoad: function( e ) {
+			$('#shopify-product-reviews [type="application/ld+json"]').remove();
+		},
+		onReviewsLoad: function( e ) {
+			$('#shopify-product-reviews [type="application/ld+json"]').remove();
+		}
+	}
+</script>
