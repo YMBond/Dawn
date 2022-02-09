@@ -235,12 +235,22 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1644374667e49e0a4e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n\tvar SPRCallbacks = {\n\t\tonProductLoad: function( e ) {\n\t\t\t$('#shopify-product-reviews [type=\"application\/ld+json\"]').remove();\n\t\t},\n\t\tonReviewsLoad: function( e ) {\n\t\t\t$('#shopify-product-reviews [type=\"application\/ld+json\"]').remove();\n\t\t}\n\t}\n<\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "1644374667e49e0a4e"
   ]
 }
