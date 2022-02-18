@@ -60,13 +60,14 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "🇺🇸 🇨🇦 🇪🇺 Welcome to our store",
               "color_scheme": "background-1",
               "link": ""
             }
           },
           "e2028aeb-158c-4e4e-bfd7-661440094e2d": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "🇺🇸 🇨🇦 🇪🇺 Happy Holidays 🥂 Happy New Year 2022 🎁 🎄",
               "color_scheme": "background-1",
