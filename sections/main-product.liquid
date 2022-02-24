@@ -632,7 +632,7 @@
       {%- for variant in product.variants -%}
         {
           "@type": "Offer",
-          "url": {{ shop.url | append: variant.url | json }},
+          "url" : {{ request.origin | append: variant.url | json }},
           {%- if variant.sku != blank -%}
             "sku": {{ variant.sku | json }},
           {%- endif -%}
@@ -641,7 +641,6 @@
           {%- endif -%}
           "priceCurrency": {{ cart.currency.iso_code | json }},
           "price": {{ variant.price | divided_by: 100.00 | json }},
-          "url" : {{ request.origin | append: variant.url | json }},
           "priceValidUntil": "{{ product.metafields.my_fields.price_valid_until }}",
           "availability": "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
           "seller": { 
