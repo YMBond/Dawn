@@ -1,5 +1,15 @@
 {
   "sections": {
+    "16462108255801db5f": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact Us",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +19,7 @@
     }
   },
   "order": [
+    "16462108255801db5f",
     "main"
   ]
 }
