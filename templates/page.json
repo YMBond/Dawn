@@ -13,8 +13,8 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "164621085139b2df5e": {
@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "1646210851a46a2ffe-1": {
@@ -46,9 +46,9 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "full_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
