@@ -27,16 +27,26 @@
           "settings": {
           }
         },
-        "bf8f1db8-0496-40b4-a5bb-24812af48e98": {
-          "type": "custom_liquid",
+        "f12c97ba-f4b2-41d4-851e-382d6c0c19c1": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "custom_liquid": "<div class=\"hideAll\">\n    <p><span>SKU: <\/span><span class=\"sku\"><\/span><\/p>       \n<\/div>\n\n{% capture 'variant_sku' %}       \n    {% for variant in product.variants %}\n        {{variant.id}}:{{ variant.sku| json }}\n        {% unless forloop.last %},{% endunless %}           \n   {% endfor %}\n{% endcapture %}  \n        \n<script>\n  const currentVariantSku = {{ product.selected_or_first_available_variant.id }};\n  const variantSku = { {{ variant_sku }} };        \n  const getSku = (id) => {\n  let selector = document.querySelector('.sku');\n  let hide = document.querySelector('.hideAll')\n    if (variantSku[id]) {\n     hide.style.display = 'block'\n     selector.innerHTML = variantSku[id];\n    }\n    else \n     hide.style.display = 'none'\n  }\n  getSku(currentVariantSku);\n\n<\/script>"
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
+          }
+        },
+        "bf8f1db8-0496-40b4-a5bb-24812af48e98": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"hideAll\">\n    <p><span>SKU: <\/span><span class=\"sku\"><\/span><\/p>       \n<\/div>\n\n{% capture 'variant_sku' %}       \n    {% for variant in product.variants %}\n        {{variant.id}}:{{ variant.sku| json }}\n        {% unless forloop.last %},{% endunless %}           \n   {% endfor %}\n{% endcapture %}  \n        \n<script>\n  const currentVariantSku = {{ product.selected_or_first_available_variant.id }};\n  const variantSku = { {{ variant_sku }} };        \n  const getSku = (id) => {\n  let selector = document.querySelector('.sku');\n  let hide = document.querySelector('.hideAll')\n    if (variantSku[id]) {\n     hide.style.display = 'block'\n     selector.innerHTML = variantSku[id];\n    }\n    else \n     hide.style.display = 'none'\n  }\n  getSku(currentVariantSku);\n\n<\/script>"
           }
         },
         "quantity_selector": {
@@ -107,8 +117,9 @@
         "title",
         "caption",
         "price",
-        "bf8f1db8-0496-40b4-a5bb-24812af48e98",
+        "f12c97ba-f4b2-41d4-851e-382d6c0c19c1",
         "variant_picker",
+        "bf8f1db8-0496-40b4-a5bb-24812af48e98",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -219,7 +230,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
