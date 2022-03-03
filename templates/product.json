@@ -33,22 +33,6 @@
             "picker_type": "button"
           }
         },
-        "41ac027c-4024-4760-925f-46bf04b04e8e": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"hideAll\">\n    <p><span>SKU: <\/span><span class=\"sku\"><\/span><\/p>       \n<\/div>\n\n{% capture 'variant_sku' %}       \n    {% for variant in product.variants %}\n        {{variant.id}}:{{ variant.sku| json }}\n        {% unless forloop.last %},{% endunless %}           \n   {% endfor %}\n{% endcapture %}  \n        \n<script>\n  const currentVariantSku = {{ product.selected_or_first_available_variant.id }};\n  const variantSku = { {{ variant_sku }} };        \n  const getSku = (id) => {\n  let selector = document.querySelector('.sku');\n  let hide = document.querySelector('.hideAll')\n    if (variantSku[id]) {\n     hide.style.display = 'block'\n     selector.innerHTML = variantSku[id];\n    }\n    else \n     hide.style.display = 'none'\n  }\n  getSku(currentVariantSku);\n\n<\/script>"
-          }
-        },
-        "25802ce9-4273-46aa-b53e-cc97a92dd77b": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#53a5ff",
-            "star_size": 10,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -109,11 +93,6 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "f4a61598-c72a-48d2-8d46-a58b008b39ad": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
           }
         }
       },
@@ -211,25 +190,33 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
-        "columns_desktop": 2
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
+        "heading_size": "h2",
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
+        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
       }

@@ -6,7 +6,7 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
-            "image_height": "large"
+            "image_height": "adapt"
           }
         },
         "title": {
@@ -23,9 +23,7 @@
           }
         },
         "content": {
-          "type": "content",
-          "settings": {
-          }
+          "type": "content"
         }
       },
       "block_order": [
