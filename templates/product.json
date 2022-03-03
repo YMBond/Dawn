@@ -102,8 +102,6 @@
         "caption",
         "price",
         "variant_picker",
-        "41ac027c-4024-4760-925f-46bf04b04e8e",
-        "25802ce9-4273-46aa-b53e-cc97a92dd77b",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -111,8 +109,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "f4a61598-c72a-48d2-8d46-a58b008b39ad"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -198,9 +195,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
