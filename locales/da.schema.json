@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Alternativ tekst til video",
-              "info": "Beskriv videoen, så den bliver tilgængelig for kunder med en skærmlæser."
+              "info": "Beskriv videoen for kunder med en skærmlæser. [Få mere at vide](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -562,10 +562,7 @@
           "label": "Maksimalt antal produkter, der skal vises"
         },
         "show_view_all": {
-          "label": "Aktivér knappen \"Se alle\", hvis kollektionen indeholder flere produkter, end der vises"
-        },
-        "swipe_on_mobile": {
-          "label": "Aktivér swipe på mobilen"
+          "label": "Aktivér “Se alle”, hvis kollektionen indeholder flere produkter, end der vises"
         },
         "header": {
           "content": "Produktkort"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Antallet af kolonner på computer"
         },
+        "description": {
+          "label": "Beskrivelse"
+        },
+        "show_description": {
+          "label": "Vis kollektionsbeskrivelse fra administratoren"
+        },
+        "description_style": {
+          "label": "Beskrivelsesstil",
+          "options__1": {
+            "label": "Brødtekst"
+          },
+          "options__2": {
+            "label": "Underoverskrift"
+          },
+          "options__3": {
+            "label": "Store bogstaver"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Rammeknap"
+          },
+          "options__3": {
+            "label": "Udfyldt knap"
+          },
+          "label": "Stilarten “Se alle”"
+        },
+        "enable_desktop_slider": {
+          "label": "Aktivér karrusel på computer"
+        },
+        "full_width": {
+          "label": "Gør produkter til fuld bredde"
+        },
         "header_mobile": {
           "content": "Mobillayout"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 kolonner"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Aktivér swipe på mobilen"
         }
       },
       "presets": {
@@ -1294,7 +1330,26 @@
           "options__3": {
             "label": "Firkantet"
           },
+<<<<<<< HEAD
           "info": "Tilføj billeder ved at redigere dine kollektioner. [Få mere at vide](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+=======
+          "info": "Tilføj billeder ved at redigere dine kollektioner. [Få mere at vide](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
+        },
+        "header_mobile": {
+          "content": "Mobillayout"
+        },
+        "columns_mobile": {
+          "label": "Antallet af kolonner på mobil",
+          "options__1": {
+            "label": "1 kolonne"
+          },
+          "options__2": {
+            "label": "2 kolonner"
+          }
+>>>>>>> 3e5c4f8fb5cdef5db1cc6f4bb1a5eb081c5c29f7
         }
       }
     },
@@ -1946,7 +2001,7 @@
         },
         "description": {
           "label": "Alternativ tekst til video",
-          "info": "Beskriv videoen, så den bliver tilgængelig for kunder med en skærmlæser."
+          "info": "Beskriv videoen for kunder med en skærmlæser. [Få mere at vide](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Tilføj billedmargen",
@@ -2090,7 +2145,7 @@
           "label": "Billedoverlejringens uigennemsigtighed"
         },
         "color_scheme": {
-          "info": "Synlig, når containeren vises"
+          "info": "Synlig, når objektbeholderen vises."
         },
         "show_text_below": {
           "label": "Vis indhold under billede på mobiltelefon",

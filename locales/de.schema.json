@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Video-Alt-Text",
-              "info": "Beschreibe das Video, um Kunden mit Bildschirmlesegeräten den Zugriff zu ermöglichen."
+              "info": "Beschreibe das Video für Kunden, die Bildschirmlesegeräte benutzen. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -562,10 +562,7 @@
           "label": "Maximal anzuzeigende Produkte"
         },
         "show_view_all": {
-          "label": "Aktiviere die Schaltfläche \"Alle anzeigen\", wenn die Kategorie mehr Produkte enthält, als angezeigt werden"
-        },
-        "swipe_on_mobile": {
-          "label": "Wischen auf Mobilgeräten aktivieren"
+          "label": "\"Alles anzeigen\" aktivieren, wenn die Kategorie mehr Produkte enthält, als angezeigt werden"
         },
         "header": {
           "content": "Produktkarte"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Anzahl der Spalten auf dem Desktop"
         },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "show_description": {
+          "label": "Kategoriebeschreibung im Adminbereich anzeigen"
+        },
+        "description_style": {
+          "label": "Beschreibungsstil",
+          "options__1": {
+            "label": "Nachricht"
+          },
+          "options__2": {
+            "label": "Untertitel"
+          },
+          "options__3": {
+            "label": "Großbuchstaben"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Umriss-Schaltfläche"
+          },
+          "options__3": {
+            "label": "Durchgehende Schaltfläche"
+          },
+          "label": "Stil \"Alles anzeigen\""
+        },
+        "enable_desktop_slider": {
+          "label": "Karussell auf Desktop aktivieren"
+        },
+        "full_width": {
+          "label": "Produkte auf gesamte Breite auslegen"
+        },
         "header_mobile": {
           "content": "Mobiles Layout"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 Spalten"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Wischen auf Mobilgeräten aktivieren"
         }
       },
       "presets": {
@@ -1295,6 +1331,21 @@
             "label": "Quadratisch"
           },
           "info": "Bearbeite deine Kategorien, um Bilder hinzuzufügen. [Mehr Informationen](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Anzahl der Spalten auf dem Desktop"
+        },
+        "header_mobile": {
+          "content": "Mobiles Layout"
+        },
+        "columns_mobile": {
+          "label": "Anzahl der Spalten auf mobilem Gerät",
+          "options__1": {
+            "label": "1 Spalte"
+          },
+          "options__2": {
+            "label": "2 Spalten"
+          }
         }
       }
     },
@@ -1946,7 +1997,7 @@
         },
         "description": {
           "label": "Video-Alt-Text",
-          "info": "Beschreibe das Video, um Kunden mit Bildschirmlesegeräten den Zugriff zu ermöglichen."
+          "info": "Beschreibe das Video für Kunden, die Bildschirmlesegeräte benutzen. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Bild-Padding hinzufügen",
@@ -2090,7 +2141,7 @@
           "label": "Deckkraft der Bildüberlagerung"
         },
         "color_scheme": {
-          "info": "Sichtbar, wenn Container angezeigt wird"
+          "info": "Sichtbar, wenn Container angezeigt wird."
         },
         "show_text_below": {
           "label": "Auf Mobilgeräten Inhalt unterhalb der Bilder anzeigen",

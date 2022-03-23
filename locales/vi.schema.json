@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Văn bản thay thế cho video",
-              "info": "Mô tả video để khách hàng có thể truy cập bằng trình đọc màn hình."
+              "info": "Mô tả video cho khách hàng bằng trình đọc màn hình. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -562,10 +562,7 @@
           "label": "Số lượng sản phẩm hiển thị tối đa"
         },
         "show_view_all": {
-          "label": "Bật nút \"View all\" (Xem tất cả) nếu bộ sưu tập có nhiều sản phẩm hơn số lượng hiển thị"
-        },
-        "swipe_on_mobile": {
-          "label": "Bật tính năng quẹt trên di động"
+          "label": "Bật tùy chọn \"Xem tất cả\" nếu bộ sưu tập có nhiều sản phẩm hơn số lượng hiển thị"
         },
         "header": {
           "content": "Thẻ sản phẩm"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Số cột trên màn hình máy tính"
         },
+        "description": {
+          "label": "Mô tả"
+        },
+        "show_description": {
+          "label": "Hiển thị mô tả bộ sưu tập trong trang quản trị"
+        },
+        "description_style": {
+          "label": "Kiểu mô tả",
+          "options__1": {
+            "label": "Nội dung"
+          },
+          "options__2": {
+            "label": "Tiêu đề phụ"
+          },
+          "options__3": {
+            "label": "Chữ viết hoa"
+          }
+        },
+        "view_all_style": {
+          "label": "Kiểu \"Xem tất cả\"",
+          "options__1": {
+            "label": "Liên kết"
+          },
+          "options__2": {
+            "label": "Nút viền ngoài"
+          },
+          "options__3": {
+            "label": "Nút đặc"
+          }
+        },
+        "enable_desktop_slider": {
+          "label": "Bật tính năng quay vòng trên máy tính để bàn"
+        },
+        "full_width": {
+          "label": "Tạo chiều rộng đầy đủ cho sản phẩm"
+        },
         "header_mobile": {
           "content": "Bố cục trên thiết bị di động"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 cột"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Bật tính năng quẹt trên di động"
         }
       },
       "presets": {
@@ -1295,6 +1331,21 @@
             "label": "Vuông"
           },
           "info": "Chỉnh sửa bộ sưu tập để thêm hình ảnh. [Tìm hiểu thêm](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Số cột trên màn hình máy tính"
+        },
+        "header_mobile": {
+          "content": "Bố cục trên thiết bị di động"
+        },
+        "columns_mobile": {
+          "label": "Số cột trên thiết bị di động",
+          "options__1": {
+            "label": "1 cột"
+          },
+          "options__2": {
+            "label": "2 cột"
+          }
         }
       }
     },
@@ -1946,7 +1997,7 @@
         },
         "description": {
           "label": "Văn bản thay thế cho video",
-          "info": "Mô tả video để khách hàng có thể truy cập bằng trình đọc màn hình."
+          "info": "Mô tả video cho khách hàng bằng trình đọc màn hình. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Thêm vùng đệm ảnh",
@@ -2090,7 +2141,7 @@
           "label": "Độ chắn sáng của lớp phủ hình ảnh"
         },
         "color_scheme": {
-          "info": "Có thể nhìn thấy khi vùng chứa hiển thị"
+          "info": "Có thể nhìn thấy khi vùng chứa hiển thị."
         },
         "show_text_below": {
           "label": "Hiển thị nội dung dưới hình ảnh trên thiết bị di động",

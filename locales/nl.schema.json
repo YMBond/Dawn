@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Alt-tekst video",
-              "info": "Beschrijf de video om hem toegankelijk te maken voor klanten die schermlezers gebruiken."
+              "info": "Geef een beschrijving van de video voor klanten die schermlezers gebruiken. [Meer informatie](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -562,10 +562,7 @@
           "label": "Maximum aantal producten om te tonen"
         },
         "show_view_all": {
-          "label": "Schakel de knop 'Alles weergeven' in als collectie meer producten heeft dan wordt getoond"
-        },
-        "swipe_on_mobile": {
-          "label": "Swipen op mobiel inschakelen"
+          "label": "Schakel Alles weergeven in als een collectie meer producten heeft dan wordt getoond"
         },
         "header": {
           "content": "Productkaart"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Aantal kolommen op desktop"
         },
+        "description": {
+          "label": "Beschrijving"
+        },
+        "show_description": {
+          "label": "Collectiebeschrijving van het beheercentrum weergeven"
+        },
+        "description_style": {
+          "label": "Stijl beschrijving",
+          "options__1": {
+            "label": "Hoofdtekst"
+          },
+          "options__2": {
+            "label": "Subtitel"
+          },
+          "options__3": {
+            "label": "Hoofdletters"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Knop Omlijnen"
+          },
+          "options__3": {
+            "label": "Knop Effen"
+          },
+          "label": "Stijl 'Alles weergeven'"
+        },
+        "enable_desktop_slider": {
+          "label": "Carrousel op desktop inschakelen"
+        },
+        "full_width": {
+          "label": "Volledige breedte voor producten gebruiken"
+        },
         "header_mobile": {
           "content": "Opmaak op mobiel"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 kolommen"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Swipen op mobiel inschakelen"
         }
       },
       "presets": {
@@ -727,7 +763,7 @@
           "label": "Menutype voor desktop",
           "info": "Menutype wordt automatisch aangepast voor mobiele apparaten.",
           "options__1": {
-            "label": "Vervolgkeuzemenu"
+            "label": "Vervolgkeuzelijst"
           },
           "options__2": {
             "label": "Megamenu"
@@ -1294,7 +1330,26 @@
           "options__3": {
             "label": "Square"
           },
+<<<<<<< HEAD
           "info": "Voeg afbeeldingen toe door je collecties bij te werken. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+=======
+          "info": "Voeg afbeeldingen toe door je collecties bij te werken. [Meer informatie](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Aantal kolommen op desktopcomputers"
+        },
+        "header_mobile": {
+          "content": "Opmaak op mobiele apparaten"
+        },
+        "columns_mobile": {
+          "label": "Aantal kolommen op mobiele apparaten",
+          "options__1": {
+            "label": "1 kolom"
+          },
+          "options__2": {
+            "label": "2 kolommen"
+          }
+>>>>>>> 3e5c4f8fb5cdef5db1cc6f4bb1a5eb081c5c29f7
         }
       }
     },
@@ -1354,7 +1409,7 @@
             "picker_type": {
               "label": "Type",
               "options__1": {
-                "label": "Vervolgkeuzemenu"
+                "label": "Vervolgkeuzelijst"
               },
               "options__2": {
                 "label": "Pillen"
@@ -1946,7 +2001,7 @@
         },
         "description": {
           "label": "Alt-tekst video",
-          "info": "Beschrijf de video om hem toegankelijk te maken voor klanten die schermlezers gebruiken."
+          "info": "Geef een beschrijving van de video voor klanten die schermlezers gebruiken. [Meer informatie](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Opvulling voor afbeeldingen toevoegen",
@@ -1998,7 +2053,7 @@
             "picker_type": {
               "label": "Type",
               "options__1": {
-                "label": "Vervolgkeuzemenu"
+                "label": "Vervolgkeuzelijst"
               },
               "options__2": {
                 "label": "Keuzeopties"
@@ -2090,7 +2145,7 @@
           "label": "Dekking van afbeeldingsoverlay"
         },
         "color_scheme": {
-          "info": "Zichtbaar wanneer de container wordt weergegeven"
+          "info": "Zichtbaar wanneer de container wordt weergegeven."
         },
         "show_text_below": {
           "label": "Content op mobiel onder de afbeelding weergeven",

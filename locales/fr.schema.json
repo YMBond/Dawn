@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Texte alternatif de la vidéo",
-              "info": "Décrivez la vidéo pour la rendre accessible aux clients utilisant des lecteurs d'écran."
+              "info": "Décrivez la vidéo pour les clients utilisant des lecteurs d'écran. [En savoir plus](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -562,10 +562,7 @@
           "label": "Quantité maximale de produits à afficher"
         },
         "show_view_all": {
-          "label": "Activer le bouton « Tout afficher » si la collection comprend plus de produits que ceux affichés"
-        },
-        "swipe_on_mobile": {
-          "label": "Activer le balayage sur mobile"
+          "label": "Activer le style « Tout afficher » si la collection comprend plus de produits que ce qui est affiché"
         },
         "header": {
           "content": "Carte de produit"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Nombre de colonnes sur ordinateur"
         },
+        "description": {
+          "label": "Description"
+        },
+        "show_description": {
+          "label": "Afficher la description de la collection à partir de l'interface administrateur"
+        },
+        "description_style": {
+          "label": "Style de la description",
+          "options__1": {
+            "label": "Corps"
+          },
+          "options__2": {
+            "label": "Sous-titre"
+          },
+          "options__3": {
+            "label": "Majuscule"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Lien"
+          },
+          "options__2": {
+            "label": "Bouton en relief"
+          },
+          "options__3": {
+            "label": "Bouton plein"
+          },
+          "label": "Style « Tout afficher »"
+        },
+        "enable_desktop_slider": {
+          "label": "Activer le carrousel sur ordinateur"
+        },
+        "full_width": {
+          "label": "Rendre les produits pleine largeur"
+        },
         "header_mobile": {
           "content": "Mise en page sur mobile"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 colonnes"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Activer le balayage sur mobile"
         }
       },
       "presets": {
@@ -1294,7 +1330,26 @@
           "options__3": {
             "label": "Square"
           },
+<<<<<<< HEAD
           "info": "Pour ajouter des images, modifiez vos collections. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+=======
+          "info": "Pour ajouter des images, modifiez vos collections. [En savoir plus](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
+>>>>>>> 3e5c4f8fb5cdef5db1cc6f4bb1a5eb081c5c29f7
         }
       }
     },
@@ -1946,7 +2001,7 @@
         },
         "description": {
           "label": "Texte alternatif de la vidéo",
-          "info": "Décrivez la vidéo pour que les client(e)s utilisant des lecteurs d'écran puissent la regarder."
+          "info": "Décrivez la vidéo pour les clients utilisant des lecteurs d'écran. [En savoir plus](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Ajouter une marge intérieure à l'image",
@@ -2090,7 +2145,7 @@
           "label": "Opacité de la superposition d'images"
         },
         "color_scheme": {
-          "info": "Visible lorsque le conteneur est affiché"
+          "info": "Visible lorsque le conteneur est affiché."
         },
         "show_text_below": {
           "label": "Afficher le contenu sous l'image sur le mobile",

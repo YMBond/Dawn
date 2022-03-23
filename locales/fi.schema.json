@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Videon vaihtoehtoinen teksti",
-              "info": "Kuvaile videota, jotta se on myös näytönlukijoita käyttävien asiakkaiden saavutettavissa."
+              "info": "Kuvaile videota näytönlukijoita käyttäviä asiakkaita varten. [Lisätietoja](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -562,10 +562,7 @@
           "label": "Näytettävien tuotteiden enimmäismäärä"
         },
         "show_view_all": {
-          "label": "Ota Näytä kaikki ‑painike käyttöön, jos kokoelma sisältää useampia tuotteita kuin mitä on näkyvissä"
-        },
-        "swipe_on_mobile": {
-          "label": "Ota pyyhkäisy käyttöön mobiililaitteessa"
+          "label": "Ota ”Katso kaikki” käyttöön, jos kokoelma sisältää enemmän kuin näkyvissä olevat tuotteet"
         },
         "header": {
           "content": "Tuotekortti"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Sarakkeiden määrä työpöydällä"
         },
+        "description": {
+          "label": "Kuvaus"
+        },
+        "show_description": {
+          "label": "Näytä kokoelman kuvaus adminissa"
+        },
+        "description_style": {
+          "label": "Kuvauksen tyyli",
+          "options__1": {
+            "label": "Leipäteksti"
+          },
+          "options__2": {
+            "label": "Alaotsikko"
+          },
+          "options__3": {
+            "label": "Isot kirjaimet"
+          }
+        },
+        "view_all_style": {
+          "label": "”Katso kaikki” tyylit",
+          "options__1": {
+            "label": "Linkki"
+          },
+          "options__2": {
+            "label": "Kehyspainike"
+          },
+          "options__3": {
+            "label": "Peittävä painike"
+          }
+        },
+        "enable_desktop_slider": {
+          "label": "Ota karuselli käyttöön työpöydällä"
+        },
+        "full_width": {
+          "label": "Tee tuotteista täysleveitä"
+        },
         "header_mobile": {
           "content": "Mobiilipohja"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 saraketta"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Ota pyyhkäisy käyttöön mobiililaitteessa"
         }
       },
       "presets": {
@@ -1294,7 +1330,26 @@
           "options__3": {
             "label": "Neliö"
           },
+<<<<<<< HEAD
           "info": "Lisää kuvia kokoelmiasi muokkaamalla. [Lisätietoja](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+=======
+          "info": "Lisää kuvia kokoelmiasi muokkaamalla. [Lisätietoja](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Sarakkeiden määrä työpöydällä"
+        },
+        "header_mobile": {
+          "content": "Mobiilipohja"
+        },
+        "columns_mobile": {
+          "label": "Sarakkeiden määrä mobiililaitteessa",
+          "options__1": {
+            "label": "1 sarake"
+          },
+          "options__2": {
+            "label": "2 saraketta"
+          }
+>>>>>>> 3e5c4f8fb5cdef5db1cc6f4bb1a5eb081c5c29f7
         }
       }
     },
@@ -1946,7 +2001,7 @@
         },
         "description": {
           "label": "Videon vaihtoehtoinen teksti",
-          "info": "Kuvaile videota, jotta se on myös näytönlukijoita käyttävien asiakkaiden saavutettavissa."
+          "info": "Kuvaile videota näytönlukijoita käyttäviä asiakkaita varten. [Lisätietoja](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Lisää kuvan täyttö",
@@ -2090,7 +2145,7 @@
           "label": "Peittokuvan läpikuultavuus"
         },
         "color_scheme": {
-          "info": "Näkyvillä, kun säilö on esillä"
+          "info": "Näkyvissä, kun säilö on esillä."
         },
         "show_text_below": {
           "label": "Näytä kuvien alla oleva sisältö mobiililaitteessa",

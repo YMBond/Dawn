@@ -433,7 +433,7 @@
             },
             "description": {
               "label": "ข้อความแสดงแทนวิดีโอ",
-              "info": "อธิบายวิดีโอเพื่อให้ลูกค้าที่ใช้เครื่องอ่านหน้าจอสามารถเข้าถึงได้"
+              "info": "อธิบายวิดีโอให้กับลูกค้าที่ใช้ตัวอ่านออกเสียงหน้าจอ [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           },
           "name": "วิดีโอ"
@@ -562,10 +562,7 @@
           "label": "จำนวนสินค้าสูงสุดที่จะแสดง"
         },
         "show_view_all": {
-          "label": "เปิดใช้งานปุ่ม \"ดูทั้งหมด\" หากคอลเลกชันมีสินค้ามากกว่าที่แสดงไว้"
-        },
-        "swipe_on_mobile": {
-          "label": "เปิดใช้งานการรูดบนมือถือ"
+          "label": "เปิดใช้งาน \"ดูทั้งหมด\" หากคอลเลกชันมีสินค้ามากกว่าที่แสดงไว้"
         },
         "header": {
           "content": "บัตรสินค้า"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "จำนวนของคอลัมน์บนเดสก์ท็อป"
         },
+        "description": {
+          "label": "คำอธิบาย"
+        },
+        "show_description": {
+          "label": "แสดงคำอธิบายคอลเลกชันจากส่วน admin"
+        },
+        "description_style": {
+          "label": "รูปแบบคำอธิบาย",
+          "options__1": {
+            "label": "เนื้อหา"
+          },
+          "options__2": {
+            "label": "คำบรรยาย"
+          },
+          "options__3": {
+            "label": "ตัวพิมพ์ใหญ่"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "ลิงก์"
+          },
+          "options__2": {
+            "label": "ปุ่มแบบเค้าโครง"
+          },
+          "options__3": {
+            "label": "ปุ่มทึบ"
+          },
+          "label": "รูปแบบ \"ดูทั้งหมด\""
+        },
+        "enable_desktop_slider": {
+          "label": "เปิดใช้ภาพสไลด์บนเดสก์ท็อป"
+        },
+        "full_width": {
+          "label": "ทำให้สินค้าเต็มความกว้าง"
+        },
         "header_mobile": {
           "content": "เลย์เอาต์สำหรับมือถือ"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 คอลัมน์"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "เปิดใช้งานการรูดบนมือถือ"
         }
       },
       "presets": {
@@ -1294,7 +1330,26 @@
           "options__3": {
             "label": "สี่เหลี่ยมจัตุรัส"
           },
+<<<<<<< HEAD
           "info": "เพิ่มรูปภาพโดยการแก้ไขคอลเลกชันของคุณ [ดูข้อมูลเพิ่มเติม](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+=======
+          "info": "เพิ่มรูปภาพโดยการแก้ไขคอลเลกชันของคุณ [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "จำนวนของคอลัมน์บนเดสก์ท็อป"
+        },
+        "header_mobile": {
+          "content": "เลย์เอาต์สำหรับมือถือ"
+        },
+        "columns_mobile": {
+          "label": "จำนวนคอลัมน์บนมือถือ",
+          "options__1": {
+            "label": "1 คอลัมน์"
+          },
+          "options__2": {
+            "label": "2 คอลัมน์"
+          }
+>>>>>>> 3e5c4f8fb5cdef5db1cc6f4bb1a5eb081c5c29f7
         }
       }
     },
@@ -1946,7 +2001,7 @@
         },
         "description": {
           "label": "ข้อความกำกับวิดีโอ",
-          "info": "อธิบายวิดีโอเพื่อให้ลูกค้าที่ใช้เครื่องอ่านหน้าจอสามารถเข้าถึงได้"
+          "info": "อธิบายวิดีโอให้กับลูกค้าที่ใช้ตัวอ่านออกเสียงหน้าจอ [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "เพิ่มพื้นที่ว่างให้รูปภาพ",
@@ -2090,7 +2145,7 @@
           "label": "ความทึบของการวางซ้อนรูปภาพ"
         },
         "color_scheme": {
-          "info": "ปรากฏให้เห็นเมื่อแสดงคอนเทนเนอร์"
+          "info": "ปรากฏให้เห็นเมื่อแสดงกรอบเนื้อหา"
         },
         "show_text_below": {
           "label": "แสดงเนื้อหาที่ด้านล่างของรูปภาพบนมือถือ",

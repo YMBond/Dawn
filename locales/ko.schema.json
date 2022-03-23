@@ -433,7 +433,7 @@
             },
             "description": {
               "label": "동영상 대체 텍스트",
-              "info": "시각 장애인용 스크린리더를 사용하는 고객이 사용할 수 있도록 동영상에 대해 설명합니다."
+              "info": "스크린리더를 사용하는 고객에게 슬라이드 쇼를 설명합니다. [자세히 알아보기](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           },
           "name": "동영상"
@@ -562,10 +562,7 @@
           "label": "표시할 제품의 최대 수"
         },
         "show_view_all": {
-          "label": "컬렉션에 표시된 것보다 많은 제품이 있는 경우 \"모두 보기\" 버튼을 활성화하십시오."
-        },
-        "swipe_on_mobile": {
-          "label": "모바일에서 긁기 활성화"
+          "label": "컬렉션에 표시된 것보다 많은 제품이 있는 경우 \"모두 보기\"를 활성화하십시오."
         },
         "header": {
           "content": "제품 카드"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "데스크톱의 열 수"
         },
+        "description": {
+          "label": "설명"
+        },
+        "show_description": {
+          "label": "관리자에서 컬렉션 설명 표시"
+        },
+        "description_style": {
+          "label": "설명 스타일",
+          "options__1": {
+            "label": "본문"
+          },
+          "options__2": {
+            "label": "소제목"
+          },
+          "options__3": {
+            "label": "대문자"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "링크"
+          },
+          "options__2": {
+            "label": "윤곽 버튼"
+          },
+          "options__3": {
+            "label": "단색 버튼"
+          },
+          "label": "\"모두 보기\" 스타일"
+        },
+        "enable_desktop_slider": {
+          "label": "데스크톱에서 캐러셀 활성화"
+        },
+        "full_width": {
+          "label": "제품을 전체 폭 사용"
+        },
         "header_mobile": {
           "content": "모바일 레이아웃"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "열 2개"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "모바일에서 긁기 활성화"
         }
       },
       "presets": {
@@ -1294,7 +1330,26 @@
           "options__3": {
             "label": "정사각형"
           },
+<<<<<<< HEAD
           "info": "컬렉션을 편집하여 이미지를 추가하십시오. [자세히 알아보기](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+=======
+          "info": "컬렉션을 편집하여 이미지를 추가하십시오. [자세히 알아보기](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "데스크톱의 열 수"
+        },
+        "header_mobile": {
+          "content": "모바일 레이아웃"
+        },
+        "columns_mobile": {
+          "label": "모바일의 열 수",
+          "options__1": {
+            "label": "열 1개"
+          },
+          "options__2": {
+            "label": "열 2개"
+          }
+>>>>>>> 3e5c4f8fb5cdef5db1cc6f4bb1a5eb081c5c29f7
         }
       }
     },
@@ -1946,7 +2001,7 @@
         },
         "description": {
           "label": "동영상 대체 텍스트",
-          "info": "시각 장애인용 스크린리더를 사용하는 고객이 사용할 수 있도록 동영상에 대해 설명합니다."
+          "info": "스크린리더를 사용하는 고객에게 슬라이드 쇼를 설명합니다. [자세히 알아보기](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "이미지 패딩 추가",
@@ -2090,7 +2145,7 @@
           "label": "이미지 오버레이 투명도"
         },
         "color_scheme": {
-          "info": "컨테이너가 표시될 때 보이게 하기"
+          "info": "컨테이너가 표시될 때 볼 수 있습니다."
         },
         "show_text_below": {
           "label": "모바일에서 이미지 아래에 콘텐츠 표시",

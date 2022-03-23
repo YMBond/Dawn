@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Testo alternativo del video",
-              "info": "Descrivi il video per renderlo accessibile ai clienti che utilizzano i lettori di schermo."
+              "info": "Descrivi il video per i clienti che utilizzano i lettori di schermo. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -562,10 +562,7 @@
           "label": "Massimo di prodotti da mostrare"
         },
         "show_view_all": {
-          "label": "Abilita il pulsante \"Visualizza tutto\" se la collezione include più prodotti di quelli mostrati"
-        },
-        "swipe_on_mobile": {
-          "label": "Abilita scorrimento su dispositivo mobile"
+          "label": "Abilita \"Visualizza tutto\" se la collezione include più prodotti di quelli mostrati"
         },
         "header": {
           "content": "Scheda prodotto"
@@ -595,6 +592,42 @@
         "columns_desktop": {
           "label": "Numero di colonne su desktop"
         },
+        "description": {
+          "label": "Descrizione"
+        },
+        "show_description": {
+          "label": "Mostra descrizione collezione dal pannello di controllo Shopify"
+        },
+        "description_style": {
+          "label": "Stile descrizione",
+          "options__1": {
+            "label": "Corpo"
+          },
+          "options__2": {
+            "label": "Sottotitolo"
+          },
+          "options__3": {
+            "label": "Maiuscolo"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Contorno pulsante"
+          },
+          "options__3": {
+            "label": "Pulsante in tinta unita"
+          },
+          "label": "Stile \"Visualizza tutto\""
+        },
+        "enable_desktop_slider": {
+          "label": "Consenti carosello su desktop"
+        },
+        "full_width": {
+          "label": "Rendi prodotti a larghezza intera"
+        },
         "header_mobile": {
           "content": "Layout dispositivo mobile"
         },
@@ -606,6 +639,9 @@
           "options__2": {
             "label": "2 colonne"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Abilita scorrimento su dispositivo mobile"
         }
       },
       "presets": {
@@ -1295,6 +1331,21 @@
             "label": "Quadrate"
           },
           "info": "Aggiungi immagini modificando le collezioni. [Maggiori informazioni](https://help.shopify.com/en/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Numero di colonne su desktop"
+        },
+        "header_mobile": {
+          "content": "Layout dispositivo mobile"
+        },
+        "columns_mobile": {
+          "label": "Numero di colonne su dispositivo mobile",
+          "options__1": {
+            "label": "1 colonna"
+          },
+          "options__2": {
+            "label": "2 colonne"
+          }
         }
       }
     },
@@ -1946,7 +1997,7 @@
         },
         "description": {
           "label": "Testo alternativo del video",
-          "info": "Descrivi il video per renderlo accessibile ai clienti che utilizzano i lettori di schermo."
+          "info": "Descrivi il video per i clienti che utilizzano i lettori di schermo. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Aggiungi spaziatura immagine",
@@ -2090,7 +2141,7 @@
           "label": "Opacità della sovrapposizione immagine"
         },
         "color_scheme": {
-          "info": "Visibile quando è visualizzato il contenitore"
+          "info": "Visibile quando è visualizzato il contenitore."
         },
         "show_text_below": {
           "label": "Mostra contenuto sotto le immagini sui dispositivi mobili",
