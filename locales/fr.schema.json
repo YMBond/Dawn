@@ -1330,9 +1330,6 @@
           "options__3": {
             "label": "Square"
           },
-<<<<<<< HEAD
-          "info": "Pour ajouter des images, modifiez vos collections. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
-=======
           "info": "Pour ajouter des images, modifiez vos collections. [En savoir plus](https://help.shopify.com/en/manual/products/collections)"
         },
         "columns_desktop": {
@@ -1349,7 +1346,6 @@
           "options__2": {
             "label": "2 colonnes"
           }
->>>>>>> 3e5c4f8fb5cdef5db1cc6f4bb1a5eb081c5c29f7
         }
       }
     },
