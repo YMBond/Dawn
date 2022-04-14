@@ -110,12 +110,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "eee26d74-dd57-4ad1-8ce8-7176cb3d1ce6": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<script src=\"https:\/\/apis.google.com\/js\/platform.js?onload=renderBadge\" async defer><\/script>\n\n<script>\n  window.renderBadge = function() {\n    var ratingBadgeContainer = document.createElement(\"div\");\n    document.body.appendChild(ratingBadgeContainer);\n    window.gapi.load('ratingbadge', function() {\n      window.gapi.ratingbadge.render(ratingBadgeContainer, {\"merchant_id\": 120263825});\n    });\n  }\n<\/script>"
-          }
         }
       },
       "block_order": [
@@ -133,8 +127,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "eee26d74-dd57-4ad1-8ce8-7176cb3d1ce6"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
