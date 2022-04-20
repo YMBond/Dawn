@@ -5,16 +5,15 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
+            "heading": "Modern Ecological Systems",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Modern Ecological Systems. Our webstore offers products and services that have been researched extensively and will provide these alternative solutions to support your quality of life.",
+            "text": "Our webstore offers products and services that have been researched extensively and will provide these alternative solutions to support your quality of life.",
             "text_style": "body"
           }
         },
