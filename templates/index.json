@@ -5,6 +5,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h2"
@@ -13,7 +14,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Modern Ecological Systems. Our webstore offers products and services that have been researched extensively and will provide these alternative solutions to support your quality of life.",
             "text_style": "body"
           }
         },
