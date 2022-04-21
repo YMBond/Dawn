@@ -38,6 +38,7 @@
     "text_boxes_radius": 20,
     "media_radius": 20,
     "popup_corner_radius": 20,
+    "badge_position": "bottom right",
     "badge_corner_radius": 20,
     "accent_icons": "accent-1",
     "social_twitter_link": "https:\/\/twitter.com\/Actin_ca",
