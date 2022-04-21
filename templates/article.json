@@ -36,9 +36,82 @@
       ],
       "settings": {
       }
+    },
+    "165052212651aa49f0": {
+      "type": "featured-product",
+      "blocks": {
+        "1650522126327499f8-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1650522126327499f8-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1650522126327499f8-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1650522126327499f8-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1650522126327499f8-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1650522126327499f8-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1650522126327499f8-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1650522126327499f8-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1650522126327499f8-0",
+        "1650522126327499f8-1",
+        "1650522126327499f8-2",
+        "1650522126327499f8-3",
+        "1650522126327499f8-4",
+        "1650522126327499f8-5",
+        "1650522126327499f8-6",
+        "1650522126327499f8-7"
+      ],
+      "settings": {
+        "product": "lumin-uvc-multi-purpose-disinfecting-system",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165052212651aa49f0"
   ]
 }
