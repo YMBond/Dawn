@@ -107,7 +107,7 @@
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
