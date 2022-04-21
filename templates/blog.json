@@ -3,9 +3,9 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "grid",
+        "layout": "collage",
         "show_image": true,
-        "image_height": "medium",
+        "image_height": "adapt",
         "show_date": true,
         "show_author": true,
         "padding_top": 36,
