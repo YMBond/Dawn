@@ -111,7 +111,13 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "cpap-apap-bipap-travel"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-gadgets"
           }
         },
         "product": {
@@ -120,24 +126,18 @@
             "product": "",
             "second_image": false
           }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "collection-0",
-        "product",
-        "collection-1"
+        "collection-1",
+        "product"
       ],
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
         "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -210,6 +210,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16505017074c0f432a": {
+      "type": "collection-list",
+      "blocks": {
+        "1650501707a8842fa9-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "organic-gadgets"
+          }
+        },
+        "1650501707a8842fa9-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cpap-apap-bipap-travel"
+          }
+        },
+        "1650501707a8842fa9-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oxygen-concentrators-and-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "1650501707a8842fa9-1",
+        "1650501707a8842fa9-0",
+        "1650501707a8842fa9-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -218,6 +258,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "16505017074c0f432a"
   ]
 }
