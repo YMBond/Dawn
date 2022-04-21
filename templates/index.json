@@ -253,6 +253,7 @@
     },
     "165052303439d22510": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "1650523034b8fa376d-0": {
           "type": "slide",
@@ -297,9 +298,9 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
