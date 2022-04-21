@@ -119,7 +119,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "Blog posts",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "blog": "web-stories",
         "post_limit": 3,
         "columns_desktop": 3,
