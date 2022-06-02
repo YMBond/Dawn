@@ -113,6 +113,7 @@
         },
         "bb6af45e-11ae-4f30-8651-cb7050bc8d35": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
           }
         }
