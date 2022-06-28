@@ -268,7 +268,7 @@
           "options__4": {
             "label": "右上"
           },
-          "label": "商品カードの位置"
+          "label": "カードでの位置"
         },
         "sale_badge_color_scheme": {
           "label": "販売バッジの配色"
@@ -282,7 +282,8 @@
       "name": "ボタン"
     },
     "variant_pills": {
-      "name": "バリエーションのピル型ボタン"
+      "name": "バリエーションのピル型ボタン",
+      "paragraph": "バリエーションのピル型ボタンは、商品バリエーションを表示する1つの方法です。[詳しくはこちら](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "入力"
@@ -691,8 +692,7 @@
         "link_list": {
           "settings": {
             "heading": {
-              "label": "見出し",
-              "info": "メニューを表示するには見出しが必要です。"
+              "label": "見出し"
             },
             "menu": {
               "label": "メニュー",

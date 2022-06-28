@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Överst till höger"
           },
-          "label": "Position för produktkort"
+          "label": "Position på kort"
         },
         "sale_badge_color_scheme": {
           "label": "Färgschema för försäljningsbricka"
@@ -282,7 +282,8 @@
       "name": "Knappar"
     },
     "variant_pills": {
-      "name": "Variantkapslar"
+      "name": "Variantkapslar",
+      "paragraph": "Variantpiller är ett sätt att visa produktvarianter på. [Mer information](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Inmatningar"
@@ -691,8 +692,7 @@
         "link_list": {
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "info": "Det krävs rubrik för att visa menyn."
+              "label": "Rubrik"
             },
             "menu": {
               "label": "Meny",

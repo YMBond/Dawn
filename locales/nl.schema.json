@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Rechtsboven"
           },
-          "label": "Positie productkaart"
+          "label": "Positie op kaarten"
         },
         "sale_badge_color_scheme": {
           "label": "Kleurschema uitverkoop-badge"
@@ -282,7 +282,8 @@
       "name": "Knoppen"
     },
     "variant_pills": {
-      "name": "Variantopties"
+      "name": "Variantopties",
+      "paragraph": "Variantopties zijn een manier om je productvarianten weer te geven. [Meer informatie](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Invoer"
@@ -692,8 +693,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Opschrift",
-              "info": "Hoofdtekst verplicht om menu weer te geven"
+              "label": "Opschrift"
             },
             "menu": {
               "label": "Menu",

@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Øverst til højre"
           },
-          "label": "Position for produktkort"
+          "label": "Placering på kort"
         },
         "sale_badge_color_scheme": {
           "label": "Farveskema for udsalg-badges"
@@ -282,7 +282,8 @@
       "name": "Knapper"
     },
     "variant_pills": {
-      "name": "Variantetiketter"
+      "name": "Variantetiketter",
+      "paragraph": "Variantetiketter er en måde at vise dine produktvarianter på. [Få mere at vide](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Inputs"
@@ -692,8 +693,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Overskrift",
-              "info": "Der skal angives en overskrift, for at menuen kan vises."
+              "label": "Overskrift"
             },
             "menu": {
               "label": "Menu",

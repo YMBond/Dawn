@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Do góry, do prawej"
           },
-          "label": "Położenie karty produktu"
+          "label": "Położenie na kartach"
         },
         "sale_badge_color_scheme": {
           "label": "Kolorystyka znaczków Wyprzedaż"
@@ -282,7 +282,8 @@
       "name": "Przyciski"
     },
     "variant_pills": {
-      "name": "Okrągłe przełączniki wariantów"
+      "name": "Okrągłe przełączniki wariantów",
+      "paragraph": "Okrągłe przełączniki wariantów to jeden ze sposobów wyświetlania wariantów produktów. [Dowiedz się więcej](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Dane wejściowe"
@@ -692,8 +693,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Nagłówek",
-              "info": "Do wyświetlenia menu wymagany jest nagłówek."
+              "label": "Nagłówek"
             },
             "menu": {
               "label": "Menu",

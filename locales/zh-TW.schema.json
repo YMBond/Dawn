@@ -268,7 +268,7 @@
           "options__4": {
             "label": "上方靠右"
           },
-          "label": "產品卡片位置"
+          "label": "卡片上的位置"
         },
         "sale_badge_color_scheme": {
           "label": "銷售徽章顏色配置"
@@ -282,7 +282,8 @@
       "name": "按鈕"
     },
     "variant_pills": {
-      "name": "子類藥丸"
+      "name": "子類藥丸",
+      "paragraph": "子類藥丸是顯示商品子類選項的一種方式。[瞭解詳情](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "輸入"
@@ -691,8 +692,7 @@
         "link_list": {
           "settings": {
             "heading": {
-              "label": "標題",
-              "info": "若要顯示選單，則必須要有標題。"
+              "label": "標題"
             },
             "menu": {
               "label": "選單",
