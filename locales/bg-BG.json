@@ -36,11 +36,13 @@
       "previous": "Предишна страница"
     },
     "search": {
-      "search": "Търсене"
+      "search": "Търсене",
+      "reset": "Изчисти думата за търсене"
     },
     "cart": {
       "view": "Покажи количката ми ({{ count }})",
-      "item_added": "Артикулът е добавен в количката"
+      "item_added": "Артикулът е добавен в количката",
+      "view_empty_cart": "Покажи количката"
     },
     "share": {
       "copy_to_clipboard": "Копиране на връзката",
@@ -51,7 +53,8 @@
     "slider": {
       "of": "от",
       "next_slide": "Плъзгане надясно",
-      "previous_slide": "Плъзгане наляво"
+      "previous_slide": "Плъзгане наляво",
+      "name": "Плъзгач"
     }
   },
   "newsletter": {
@@ -74,7 +77,8 @@
     "skip_to_product_info": "Прескочи към информацията за продукта",
     "total_reviews": "общ брой мнения",
     "star_reviews_info": "{{ rating_value }} от {{ rating_max }} звезди",
-    "collapsible_content_title": "Съдържание, което може да се свива"
+    "collapsible_content_title": "Съдържание, което може да се свива",
+    "complementary_products": "Допълващи продукти"
   },
   "blogs": {
     "article": {
@@ -110,7 +114,11 @@
         "label": "Количество",
         "input_label": "Количество за {{ product }}",
         "increase": "Увеличаване на количеството за {{ product }}",
-        "decrease": "Намаляване на количеството за {{ product }}"
+        "decrease": "Намаляване на количеството за {{ product }}",
+        "minimum_of": "Минимум: {{ quantity }}",
+        "maximum_of": "Максимум: {{ quantity }}",
+        "multiples_of": "Стъпки от {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> в количката"
       },
       "price": {
         "from_price_html": "От {{ price }}",
@@ -148,7 +156,16 @@
       "include_taxes": "С включени данъци.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
       "choose_options": "Изберете опции",
-      "choose_product_options": "Изберете опции за {{ product_name }}"
+      "choose_product_options": "Изберете опции за {{ product_name }}",
+      "value_unavailable": "{{ option_value }} – неналично",
+      "variant_sold_out_or_unavailable": "Вариантът е изчерпан или неналичен.",
+      "inventory_in_stock": "В наличност",
+      "inventory_in_stock_show_count": "{{ quantity }} в наличност",
+      "inventory_low_stock": "Ниски наличности",
+      "inventory_low_stock_show_count": "Ниски наличности: остават {{ quantity }}",
+      "inventory_out_of_stock": "Изчерпано количество",
+      "inventory_out_of_stock_continue_selling": "В наличност",
+      "sku": "SKU"
     },
     "modal": {
       "label": "Мултимедийна галерия"
@@ -198,7 +215,21 @@
       "results_with_count_and_term": {
         "one": "Открит е {{ count }} резултат за „{{ terms }}“",
         "other": "Открити са {{ count }} резултата за „{{ terms }}“"
-      }
+      },
+      "results_pages_with_count": {
+        "one": "{{ count }} страница",
+        "other": "{{ count }} страници"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} предложениe",
+        "other": "{{ count }} предложения"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} продукт",
+        "other": "{{ count }} продукта"
+      },
+      "suggestions": "Предложения",
+      "pages": "Страници"
     },
     "cart": {
       "cart": "Количка"
@@ -267,8 +298,7 @@
     },
     "featured_collection": {
       "view_all": "Покажи всички",
-      "view_all_label": "Покажи всички продукти в колекция {{ collection_name }}",
-      "slider": "Плъзгач"
+      "view_all_label": "Покажи всички продукти в колекция {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Покажи всички"

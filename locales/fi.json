@@ -36,11 +36,13 @@
       "previous": "Edellinen sivu"
     },
     "search": {
-      "search": "Hae"
+      "search": "Hae",
+      "reset": "Tyhjennä hakutermi"
     },
     "cart": {
       "view": "Näytä ostoskori ({{ count }})",
-      "item_added": "Tuote lisätty ostoskoriisi"
+      "item_added": "Tuote lisätty ostoskoriisi",
+      "view_empty_cart": "Näytä ostoskorini"
     },
     "share": {
       "copy_to_clipboard": "Kopioi linkki",
@@ -51,7 +53,8 @@
     "slider": {
       "of": "/",
       "next_slide": "Liu'uta oikealle",
-      "previous_slide": "Liu'uta vasemmalle"
+      "previous_slide": "Liu'uta vasemmalle",
+      "name": "Liukusäädin"
     }
   },
   "newsletter": {
@@ -74,7 +77,8 @@
     "skip_to_product_info": "Siirry tuotetietoihin",
     "total_reviews": "arvosteluja yhteensä",
     "star_reviews_info": "{{ rating_value }}/{{ rating_max }} tähteä",
-    "collapsible_content_title": "Pienenettävä sisältö"
+    "collapsible_content_title": "Pienenettävä sisältö",
+    "complementary_products": "Täydentävät tuotteet"
   },
   "blogs": {
     "article": {
@@ -110,7 +114,11 @@
         "label": "Määrä",
         "input_label": "Tuotteen {{ product }} määrä",
         "increase": "Lisää tuotteen {{ product }} määrää",
-        "decrease": "Vähennä tuotteen {{ product }} määrää"
+        "decrease": "Vähennä tuotteen {{ product }} määrää",
+        "minimum_of": "Vähimmäismäärä {{ quantity }}",
+        "maximum_of": "Enimmäismäärä {{ quantity }}",
+        "multiples_of": "Lisäysten koko: {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> ostoskorissa"
       },
       "price": {
         "from_price_html": "Alkaen {{ price }}",
@@ -148,7 +156,16 @@
       "include_taxes": "Sisältää veron.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut</a> lasketaan kassalla.",
       "choose_options": "Valitse vaihtoehdot",
-      "choose_product_options": "Valitse vaihtoehtoja tuotteelle {{ product_name }}"
+      "choose_product_options": "Valitse vaihtoehtoja tuotteelle {{ product_name }}",
+      "value_unavailable": "{{ option_value }} – Ei ole käytettävissä",
+      "variant_sold_out_or_unavailable": "Versio on loppuunmyyty tai ei saatavilla",
+      "inventory_in_stock": "Varastossa",
+      "inventory_in_stock_show_count": "{{ quantity }} varastossa",
+      "inventory_low_stock": "Varasto vähissä",
+      "inventory_low_stock_show_count": "Varasto vähissä: {{ quantity }} jäljellä",
+      "inventory_out_of_stock": "Loppunut varastosta",
+      "sku": "SKU-koodi",
+      "inventory_out_of_stock_continue_selling": "Varastossa"
     },
     "modal": {
       "label": "Mediagalleria"
@@ -198,6 +215,20 @@
       "results_with_count_and_term": {
         "one": "{{ count }} tulos hakuehdolla \"{{ terms }}\"",
         "other": "{{ count }} tulosta hakuehdolla \"{{ terms }}\""
+      },
+      "results_pages_with_count": {
+        "one": "{{ count }} sivu",
+        "other": "{{ count }} sivua"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} tuote",
+        "other": "{{ count }} tuotetta"
+      },
+      "suggestions": "Ehdotukset",
+      "pages": "Sivut",
+      "results_suggestions_with_count": {
+        "one": "{{ count }} ehdotus",
+        "other": "{{ count }} ehdotusta"
       }
     },
     "cart": {
@@ -267,8 +298,7 @@
     },
     "featured_collection": {
       "view_all": "Näytä kaikki",
-      "view_all_label": "Näytä kaikki tuotteet kokoelmassa {{ collection_name }}",
-      "slider": "Liukusäädin"
+      "view_all_label": "Näytä kaikki tuotteet kokoelmassa {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Näytä kaikki"
@@ -364,8 +394,8 @@
       "none": "Et ole vielä tehnyt tilauksia."
     },
     "recover_password": {
-      "title": "Palauta salasanasi",
-      "subtext": "Lähetämme sinulle sähköpostiviestin salasanan palauttamiseksi",
+      "title": "Nollaa salasanasi",
+      "subtext": "Lähetämme sinulle sähköpostiviestin salasanan nollaamiseksi",
       "success": "Olemme lähettäneet sinulle sähköpostiviestin, jossa on salasanan päivityslinkki."
     },
     "register": {
@@ -377,7 +407,7 @@
       "submit": "Luo"
     },
     "reset_password": {
-      "title": "Palauta tilin salasana",
+      "title": "Nollaa tilin salasana",
       "subtext": "Syötä uusi salasana",
       "password": "Salasana",
       "password_confirm": "Vahvista salasana",

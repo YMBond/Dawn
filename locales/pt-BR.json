@@ -36,11 +36,13 @@
       "previous": "Página anterior"
     },
     "search": {
-      "search": "Pesquisar"
+      "search": "Pesquisar",
+      "reset": "Limpar termo de pesquisa"
     },
     "cart": {
       "view": "Ver o carrinho ({{ count }})",
-      "item_added": "Item adicionado ao carrinho"
+      "item_added": "Item adicionado ao carrinho",
+      "view_empty_cart": "Ver meu carrinho"
     },
     "share": {
       "copy_to_clipboard": "Copiar link",
@@ -51,7 +53,8 @@
     "slider": {
       "of": "de",
       "next_slide": "Deslizar para a direita",
-      "previous_slide": "Deslizar para a esquerda"
+      "previous_slide": "Deslizar para a esquerda",
+      "name": "Controle deslizante"
     }
   },
   "newsletter": {
@@ -74,7 +77,8 @@
     "skip_to_product_info": "Pular para as informações do produto",
     "total_reviews": "total de avaliações",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrelas",
-    "collapsible_content_title": "Conteúdo recolhível"
+    "collapsible_content_title": "Conteúdo recolhível",
+    "complementary_products": "Produtos complementares"
   },
   "blogs": {
     "article": {
@@ -111,7 +115,11 @@
         "label": "Quantidade",
         "input_label": "Quantidade de {{ product }}",
         "increase": "Aumentar a quantidade de {{ product }}",
-        "decrease": "Diminuir a quantidade de {{ product }}"
+        "decrease": "Diminuir a quantidade de {{ product }}",
+        "minimum_of": "Mínimo de {{ quantity }}",
+        "maximum_of": "Máximo de {{ quantity }}",
+        "multiples_of": "Pacote com {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> no carrinho"
       },
       "price": {
         "from_price_html": "De {{ price }}",
@@ -149,7 +157,16 @@
       "include_taxes": "Tributo incluído.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frete<\/a> calculado no checkout.",
       "choose_options": "Escolher opções",
-      "choose_product_options": "Escolha opções para {{ product_name }}"
+      "choose_product_options": "Escolha opções para {{ product_name }}",
+      "value_unavailable": "{{ option_value }} – indisponível",
+      "variant_sold_out_or_unavailable": "Variante esgotada ou indisponível",
+      "inventory_in_stock": "Em estoque",
+      "inventory_in_stock_show_count": "{{ quantity }} em estoque",
+      "inventory_low_stock": "Estoque baixo",
+      "inventory_low_stock_show_count": "Estoque baixo: {{ quantity }} restante(s)",
+      "inventory_out_of_stock": "Fora de estoque",
+      "inventory_out_of_stock_continue_selling": "Em estoque",
+      "sku": "SKU"
     },
     "modal": {
       "label": "Galeria de mídia"
@@ -204,7 +221,24 @@
         "one": "{{ count }} resultado encontrado para “{{ terms }}”",
         "other": "{{ count }} resultados encontrados para “{{ terms }}”",
         "many": "{{ count }} resultados encontrados para “{{ terms }}”"
-      }
+      },
+      "results_pages_with_count": {
+        "one": "{{ count }} página",
+        "other": "{{ count }} páginas",
+        "many": "{{ count }} páginas"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} sugestão",
+        "other": "{{ count }} sugestões",
+        "many": "{{ count }} sugestões"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} produto",
+        "other": "{{ count }} produtos",
+        "many": "{{ count }} produtos"
+      },
+      "suggestions": "Sugestões",
+      "pages": "Páginas"
     },
     "cart": {
       "cart": "Carrinho"
@@ -274,8 +308,7 @@
     },
     "featured_collection": {
       "view_all": "Ver tudo",
-      "view_all_label": "Ver todos os produtos da coleção {{ collection_name }}",
-      "slider": "Controle deslizante"
+      "view_all_label": "Ver todos os produtos da coleção {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Ver tudo"

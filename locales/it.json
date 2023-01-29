@@ -36,11 +36,13 @@
       "previous": "Pagina precedente"
     },
     "search": {
-      "search": "Cerca"
+      "search": "Cerca",
+      "reset": "Cancella termine ricerca"
     },
     "cart": {
       "view": "Visualizza carrello ({{ count }})",
-      "item_added": "Articolo aggiunto al carrello"
+      "item_added": "Articolo aggiunto al carrello",
+      "view_empty_cart": "Visualizza carrello"
     },
     "share": {
       "copy_to_clipboard": "Copia link",
@@ -51,7 +53,8 @@
     "slider": {
       "of": "su",
       "next_slide": "Scorri verso destra",
-      "previous_slide": "Scorri verso sinistra"
+      "previous_slide": "Scorri verso sinistra",
+      "name": "Cursore"
     }
   },
   "newsletter": {
@@ -74,7 +77,8 @@
     "skip_to_product_info": "Passa alle informazioni sul prodotto",
     "total_reviews": "recensioni totali",
     "star_reviews_info": "{{ rating_value }} stelle su {{ rating_max }}",
-    "collapsible_content_title": "Contenuto comprimibile"
+    "collapsible_content_title": "Contenuto comprimibile",
+    "complementary_products": "Prodotti complementari"
   },
   "blogs": {
     "article": {
@@ -111,7 +115,11 @@
         "label": "Quantità",
         "input_label": "Quantità per {{ product }}",
         "increase": "Aumenta quantità per {{ product }}",
-        "decrease": "Diminuisci quantità per {{ product }}"
+        "decrease": "Diminuisci quantità per {{ product }}",
+        "minimum_of": "Minimo di {{ quantity }}",
+        "maximum_of": "Massimo di {{ quantity }}",
+        "multiples_of": "Incrementi di {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> nel carrello"
       },
       "price": {
         "from_price_html": "Da {{ price }}",
@@ -149,7 +157,16 @@
       "include_taxes": "Imposte incluse.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Spese di spedizione<\/a> calcolate al check-out.",
       "choose_options": "Scegli opzioni",
-      "choose_product_options": "Scegli opzioni per {{ product_name }}"
+      "choose_product_options": "Scegli opzioni per {{ product_name }}",
+      "value_unavailable": "{{ option_value }} - Non disponibile",
+      "variant_sold_out_or_unavailable": "Variante esaurita o non disponibile",
+      "inventory_in_stock": "Disponibile",
+      "inventory_in_stock_show_count": "{{ quantity }} disponibile/i",
+      "inventory_low_stock": "Scorte ridotte",
+      "inventory_low_stock_show_count": "Scorte ridotte: ne restano {{ quantity }}",
+      "inventory_out_of_stock": "Esaurito",
+      "inventory_out_of_stock_continue_selling": "Disponibile",
+      "sku": "SKU"
     },
     "modal": {
       "label": "Galleria contenuti multimediali"
@@ -204,6 +221,23 @@
         "one": "{{ count }} risultato trovato per \"{{ terms }}\"",
         "other": "{{ count }} risultati trovati per \"{{ terms }}\"",
         "many": "{{ count }} risultati trovati per \"{{ terms }}\""
+      },
+      "results_pages_with_count": {
+        "one": "{{ count }} pagina",
+        "other": "{{ count }} pagine",
+        "many": "{{ count }} pagine"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} prodotto",
+        "other": "{{ count }} prodotti",
+        "many": "{{ count }} prodotti"
+      },
+      "suggestions": "Suggerimenti",
+      "pages": "Pagine",
+      "results_suggestions_with_count": {
+        "one": "{{ count }} suggerimento",
+        "other": "{{ count }} suggerimenti",
+        "many": "{{ count }} suggerimenti"
       }
     },
     "cart": {
@@ -274,8 +308,7 @@
     },
     "featured_collection": {
       "view_all": "Visualizza tutto",
-      "view_all_label": "Visualizza tutti i prodotti della collezione {{ collection_name }}",
-      "slider": "Cursore"
+      "view_all_label": "Visualizza tutti i prodotti della collezione {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Visualizza tutto"

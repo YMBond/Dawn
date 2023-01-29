@@ -36,11 +36,13 @@
       "previous": "Page précédente"
     },
     "search": {
-      "search": "Recherche"
+      "search": "Recherche",
+      "reset": "Effacer le terme de recherche"
     },
     "cart": {
       "view": "Afficher mon panier ({{ count }})",
-      "item_added": "Article ajouté au panier"
+      "item_added": "Article ajouté au panier",
+      "view_empty_cart": "Afficher mon panier"
     },
     "share": {
       "copy_to_clipboard": "Copier le lien",
@@ -51,7 +53,8 @@
     "slider": {
       "of": "de",
       "next_slide": "Faire glisser vers la droite",
-      "previous_slide": "Faire glisser vers la gauche"
+      "previous_slide": "Faire glisser vers la gauche",
+      "name": "Carrousel"
     }
   },
   "newsletter": {
@@ -74,7 +77,8 @@
     "skip_to_product_info": "Passer aux informations produits",
     "total_reviews": "total des critiques",
     "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
-    "collapsible_content_title": "Contenu réductible"
+    "collapsible_content_title": "Contenu réductible",
+    "complementary_products": "Produits complémentaires"
   },
   "blogs": {
     "article": {
@@ -105,13 +109,17 @@
     "product": {
       "add_to_cart": "Ajouter au panier",
       "description": "Description",
-      "on_sale": "Vente",
+      "on_sale": "En vente",
       "product_variants": "Variantes de produits",
       "quantity": {
         "label": "Quantité",
         "input_label": "Quantité pour {{ product }}",
         "increase": "Augmenter la quantité de {{ product }}",
-        "decrease": "Réduire la quantité de {{ product }}"
+        "decrease": "Réduire la quantité de {{ product }}",
+        "minimum_of": "Minimum de {{ quantity }}",
+        "maximum_of": "Maximum de {{ quantity }}",
+        "multiples_of": "Incréments de {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> dans le panier"
       },
       "price": {
         "from_price_html": "Du {{ price }}",
@@ -149,7 +157,16 @@
       "include_taxes": "Taxes incluses.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition<\/a> calculés à l'étape de paiement.",
       "choose_options": "Choisir des options",
-      "choose_product_options": "Choisir des options pour {{ product_name }}"
+      "choose_product_options": "Choisir des options pour {{ product_name }}",
+      "value_unavailable": "{{ option_value }} – indisponible",
+      "variant_sold_out_or_unavailable": "Variante épuisée ou indisponible",
+      "inventory_in_stock": "En stock",
+      "inventory_in_stock_show_count": "{{ quantity }} en stock",
+      "inventory_low_stock": "Stock bas",
+      "inventory_low_stock_show_count": "Stock bas : {{ quantity }} restant(s)",
+      "sku": "SKU",
+      "inventory_out_of_stock": "En rupture de stock",
+      "inventory_out_of_stock_continue_selling": "En stock"
     },
     "modal": {
       "label": "Galerie de supports multimédias"
@@ -204,7 +221,24 @@
         "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
         "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
         "many": "{{ count }} résultats trouvés pour « {{ terms }} »"
-      }
+      },
+      "results_pages_with_count": {
+        "one": "Page {{ count }}",
+        "other": "Pages {{ count }}",
+        "many": "Pages {{ count }}"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} suggestion",
+        "other": "{{ count }} suggestions",
+        "many": "{{ count }} suggestions"
+      },
+      "results_products_with_count": {
+        "one": "Produit {{ count }}",
+        "other": "Produits {{ count }}",
+        "many": "Produits {{ count }}"
+      },
+      "suggestions": "Suggestions",
+      "pages": "Pages"
     },
     "cart": {
       "cart": "Panier"
@@ -274,8 +308,7 @@
     },
     "featured_collection": {
       "view_all": "Tout afficher",
-      "view_all_label": "Afficher tous les produits de la collection {{ collection_name }}",
-      "slider": "Carrousel"
+      "view_all_label": "Afficher tous les produits de la collection {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Tout afficher"
